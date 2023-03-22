@@ -1645,6 +1645,8 @@ input:invalid:focus + .footer_btn-email {
         width: 300px;
     }
     .testimonials_cards{
+	display: flex;
+	gap: 14px;
         width: 299px;
         margin-bottom: 30px;
     }
