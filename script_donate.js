@@ -21,7 +21,7 @@ for (let i = 0; i < points.length; i++ ) {
         moneyAmount()
     });
 };
-moneyInput.addEventListener('input', () => {   
+moneyInput.addEventListener('input', () => {
     for (let i = 0; i < money.length; i++) {
         if (moneyInput.value == moneyValuesArray[i]) {
             let pointActive = document.querySelector('.point-active');
@@ -34,10 +34,10 @@ moneyInput.addEventListener('input', () => {
     };
 });
 
-moneyInput.addEventListener('input', () => { 
+moneyInput.addEventListener('input', () => {
     if (moneyInput.value.length > 4) {
         moneyInput.value = moneyInput.value.slice(0, 4);
-    } 
+    }
 });
 
 //Header (burger)
@@ -54,13 +54,13 @@ headerBurger.addEventListener('click', () => {
 function removeAll() {
     headerNav.classList.remove('header__nav-active');
     overlay.classList.remove('overlay_active');
-    headerClose.classList.remove('header_close-active');    
+    headerClose.classList.remove('header_close-active');
 };
 overlay.addEventListener('click', () => {
     removeAll()
 });
 headerClose.addEventListener('click', () => {
-    removeAll()  
+    removeAll()
 });
 
 
