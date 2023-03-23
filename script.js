@@ -12,13 +12,13 @@ headerBurger.addEventListener('click', () => {
 function removeAll() {
     headerNav.classList.remove('header__nav-active');
     overlay.classList.remove('overlay_active');
-    headerClose.classList.remove('header_close-active');    
+    headerClose.classList.remove('header_close-active');
 };
 overlay.addEventListener('click', () => {
     removeAll()
 });
 headerClose.addEventListener('click', () => {
-    removeAll()  
+    removeAll()
 });
 
 //Pets (slider)
@@ -114,7 +114,7 @@ function createNextSlide(pets) {
             </div>`;
 };
 
-//create slider 
+//create slider
 window.addEventListener('load', function () {
     let slider;
     slider = createNextSlide(shuffle(petCardArray, 6));
@@ -127,7 +127,7 @@ function changeCarousel(direction) {
     btnWork = false;
     sliders[0].classList.add(direction);
     sliders[0].addEventListener('animationend', function () {
-        this.remove();       
+        this.remove();
     });
 };
 //show new slider
