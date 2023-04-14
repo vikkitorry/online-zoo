@@ -1627,7 +1627,7 @@ input:invalid:focus + .footer_btn-email {
     }
     .pick_arrow-small{
         top: 430px;
-        left: 79%;      
+        left: 79%;
     }
     /*testimonials*/
     .testimonials {
@@ -1644,8 +1644,8 @@ input:invalid:focus + .footer_btn-email {
         width: 300px;
     }
     .testimonials_cards{
-	display: flex;
-	gap: 14px;
+	    display: flex;
+	    gap: 14px;
         width: 299px;
         margin-bottom: 30px;
     }
